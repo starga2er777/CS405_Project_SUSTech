@@ -1,8 +1,12 @@
 <h1 align = "center">2D Semantic Segmentation in Urban Scenes</h1>
-<center>11911612 Haoyu Wang</center>\\
-<center>122012524 Zhangjie Chen</center>\\
-<center>12011923 Xudong Zhang</center>\\
-<center>12011231 Xuyuan Li</center>\\
+<center>11911612 Haoyu Wang</center>
+
+<center>122012524 Zhangjie Chen</center>
+
+<center>12011923 Xudong Zhang</center>
+
+<center>12011231 Xuyuan Li</center>
+
 *Dec 2023*
 
 ### Research Problem
