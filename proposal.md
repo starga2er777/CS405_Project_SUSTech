@@ -1,7 +1,7 @@
 <h1 align = "center">2D Semantic Segmentation in Urban Scenes</h1>
 <center>11911612 Haoyu Wang</center>  
 
-<center>122012524 Zhangjie Chen</center>
+<center>12012524 Zhangjie Chen</center>
 
 <center>12011923 Xudong Zhang</center>
 
@@ -35,9 +35,34 @@
 
 ### Staffing Plan
 
+All the staffing information are provided in the following.
 
+- Haoyu Wang：
+  - Survey on 2D semantic segmentation
+  - Construct cityscapes dataset
+  - Train the model
+- Zhangjie Chen
+  - Train the model
+  - Evaluate test performance
+  - Try better Performance
+- Xudong Zhang
+  - Choose model and estimate memory consumption
+  - Evaluate test performance
+  - Try better Performance
+- Xuyuan Li
+  - Construct Self sampled SUSTECH dataset
+  - Data preprocessing
+  - Try better Performance
 
 ### Timeline
+
+| Week | Task                                                         |
+| :--: | :----------------------------------------------------------- |
+|  12  | - Survey on 2D semantic segmentation<br />- Starting training U-Net |
+|  13  | - Construct cityscapes dataset<br />- Train the initial results of semantic segmentation |
+|  14  | - Improve the accuracy of U-Net<br />- Collect SUSTech datasets for U-Net<br />- Clean and label the SUSTech datasets |
+|  15  | - Get the results on SUSTech datasets<br />- Analyze the final results<br />- No-predefined label |
+|  16  | - Visualize the final results<br />- PPT, Report and Presentation |
 
 
 
