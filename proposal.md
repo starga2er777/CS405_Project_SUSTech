@@ -44,11 +44,13 @@ We trained our model with the following parameters:
 
 We observed the descending loss by epoch:
 
-[insert picture]
+![output](https://github.com/starga2er777/CS405_Project_SUSTech/assets/84237574/f052bc9c-ff8e-40ff-96a0-b8e2ae4f5e0a)
+
 
 Below is an example of semantic segmentation result:
 
-[insert picture]
+![Screenshot from 2023-12-08 18-37-08](https://github.com/starga2er777/CS405_Project_SUSTech/assets/84237574/4a7a2939-a51e-47f9-950b-99c4348a59a8)
+
 
 We evaluated the model in two ways: one is pixel-level accuracy, and the other is IoU (Intersection over Union) for each class.
 
