@@ -56,7 +56,7 @@ We evaluated the model in two ways: one is pixel-level accuracy, and the other i
 
 **Pixel-Level Accuracy**: *0.8443*
 
-IoU result of different labels:
+**IoU result of different labels**:
 | ID   | IoU        | Object Type          |
 | ---- | ---------- | -------------------- |
 | 0    | N/A        | unlabeled            |
