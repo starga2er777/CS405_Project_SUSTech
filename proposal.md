@@ -113,6 +113,21 @@ Further enhancements in performance could be achieved through applying other mod
 
 
 
+## Experiment Resources & Platform
+
+We conducted the experiment based on the server with following info provided by course:
+
+| Tool                | Detail/Version                            |
+| ------------------- | ----------------------------------------- |
+| GPU                 | NVIDIA GeForce RTX 2080 Ti                |
+| CPU                 | Intel(R) Xeon(R) Gold 5218R CPU @ 2.10GHz |
+| CUDA                | 12.2                                      |
+| python              | 3.7                                       |
+| pytorch+torchvision | 1.13.1/0.14.1                             |
+| tensorboardx        | 2.2                                       |
+
+
+
 ## Staffing Plan
 
 All the staffing information are provided in the following.
