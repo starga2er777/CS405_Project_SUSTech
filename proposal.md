@@ -30,15 +30,39 @@ Meanwhile, in order to improve the performance under the situation without any h
 
 ## Related Work
 
+U-Net is one of the early algorithms that utilizes fully convolutional networks for semantic segmentation. It aims to identify cell boundaries in images, and its innovation lies in the symmetrical U-shaped structure, comprising a compressive path and an expansive path. The nomenclature of the network is derived from the U-shaped configuration it exhibits. The compressive and expansive paths conduct max-pooling downsampling and transposed convolution operations, respectively, culminating in a two-dimensional segmentation map, as the task at hand pertains to binary classification. The inventive design of U-Net had a discernible impact on the subsequent development of several segmentation networks.
 
+Due to the substantial memory consumption of model weights, particularly when employing a very large batch size, a significant portion of GPU memory is allocated for this purpose, resulting in considerable GPU memory wastage. Consequently, the U-Net team opted for larger individual images with a batch size set to 1. However, this choice introduces a challenge where gradient estimation becomes highly dependent on a single image, leading to increased noise. To address this issue, a high momentum value is employed, ensuring that early training samples exert a considerable influence on the gradient descent process.
+
+The experiments conducted with U-Net utilized a relatively straightforward ISBI cell tracking dataset. Given the inherently uncomplicated nature of the task, U-Net achieved remarkably low error rates by training on only 30 images, complemented by the implementation of data augmentation strategies.
 
 ## Improvements
 
+**Architecture: Addressing Rigidity**
 
+The architecture proposed by U-Net, with its distinctive U-shaped structure, poses a challenge when attempting modifications. Exploring alternative architectures that can accommodate variations in image features and structures while maintaining the essence of the original design is a noteworthy avenue for improvement.
+
+**Optimizer: Navigating Resource Constraints**
+
+Considering the computational resources required during training, there exists a delicate trade-off between the optimization algorithm's sophistication and the available hardware capabilities. Investigating optimization techniques that strike a balance between efficiency and performance gains could potentially enhance the overall training process.
+
+**Loss Function: Enhancing Boundary Recognition**
+
+One critical aspect is the challenge of accurately recognizing "border" regions in semantic segmentation tasks. Exploring and refining loss functions tailored to improve the model's ability to precisely identify and delineate object boundaries is crucial for achieving more accurate and fine-grained segmentation results.
+
+**Data Preprocessing: Elevating Robustness through Augmentation**
+
+To further enhance the robustness of the model, augmenting the dataset through diverse preprocessing techniques becomes pivotal. Experimenting with advanced data augmentation strategies, such as geometric transformations, color variations, or introducing synthetic data, can contribute to training a more resilient model capable of handling a broader range of real-world scenarios and variations in input data.
 
 ## Proposed Method
 
+**Extending U-Net for Multi-Class Classification**
 
+In adapting U-Net for multi-class classification, a fundamental modification involves extending its architecture to accommodate the intricacies of multiple classes rather than the binary segmentation it was initially designed for (background and foreground).
+
+For the transition to multi-class segmentation, a pivotal adjustment is made in the output layer, necessitating an increase in the number of channels. Specifically, each class requires a dedicated channel for prediction. For example, in a scenario with 5 classes, the output layer is expanded to incorporate 5 channels, with each channel dedicated to predicting the presence and characteristics of a specific class. This expansion enables the model to provide nuanced and class-specific segmentation outputs, allowing it to discern and delineate between different objects or entities within the input data. This modification empowers U-Net to extend its utility beyond binary segmentation tasks and lends itself effectively to the demands of multi-class classification challenges.
+
+![model](img/model.png)
 
 ## Experiment Resources & Platform
 
