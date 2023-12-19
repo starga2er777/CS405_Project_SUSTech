@@ -1,0 +1,44 @@
+Mon Dec  4 15:13:55 2023       
++---------------------------------------------------------------------------------------+
+| NVIDIA-SMI 535.104.05             Driver Version: 535.104.05   CUDA Version: 12.2     |
+|-----------------------------------------+----------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |         Memory-Usage | GPU-Util  Compute M. |
+|                                         |                      |               MIG M. |
+|=========================================+======================+======================|
+|   0  NVIDIA GeForce RTX 2080 Ti     On  | 00000000:05:00.0 Off |                  N/A |
+| 27%   32C    P8              20W / 250W |      2MiB / 11264MiB |      0%      Default |
+|                                         |                      |                  N/A |
++-----------------------------------------+----------------------+----------------------+
+                                                                                         
++---------------------------------------------------------------------------------------+
+| Processes:                                                                            |
+|  GPU   GI   CI        PID   Type   Process name                            GPU Memory |
+|        ID   ID                                                             Usage      |
+|=======================================================================================|
+|  No running processes found                                                           |
++---------------------------------------------------------------------------------------+
+Dataset CityscapesDataset
+    Number of images: 500
+    Split: val
+    Mode: gtFine
+    Augment: False
+    Root Location: ../datasets/cityscapes
+
+creating unet model...
+    - model restored from file....
+    - filename = ./unet.pkl
+
+evaluating network (will take a while)...
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+
+NETWORK RESULTS
+    - avg timing = 0.0454 (sec)
+    - avg accuracy = 0.9477

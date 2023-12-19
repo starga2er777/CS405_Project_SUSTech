@@ -1,0 +1,40 @@
+Mon Dec  4 07:26:58 2023       
++---------------------------------------------------------------------------------------+
+| NVIDIA-SMI 535.104.05             Driver Version: 535.104.05   CUDA Version: 12.2     |
+|-----------------------------------------+----------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |         Memory-Usage | GPU-Util  Compute M. |
+|                                         |                      |               MIG M. |
+|=========================================+======================+======================|
+|   0  NVIDIA GeForce RTX 2080 Ti     On  | 00000000:05:00.0 Off |                  N/A |
+| 31%   30C    P8              35W / 250W |      2MiB / 11264MiB |      0%      Default |
+|                                         |                      |                  N/A |
++-----------------------------------------+----------------------+----------------------+
+|   1  NVIDIA GeForce RTX 2080 Ti     On  | 00000000:1C:00.0 Off |                  N/A |
+| 31%   28C    P8              16W / 250W |      2MiB / 11264MiB |      0%      Default |
+|                                         |                      |                  N/A |
++-----------------------------------------+----------------------+----------------------+
+                                                                                         
++---------------------------------------------------------------------------------------+
+| Processes:                                                                            |
+|  GPU   GI   CI        PID   Type   Process name                            GPU Memory |
+|        ID   ID                                                             Usage      |
+|=======================================================================================|
+|  No running processes found                                                           |
++---------------------------------------------------------------------------------------+
+Dataset CityscapesDataset
+    Number of images: 500
+    Split: val
+    Mode: gtFine
+    Augment: False
+    Root Location: ../datasets/cityscapes
+
+creating unet model...
+    - model restored from file....
+    - filename = ./unet.pkl
+
+evaluating network (will take a while)...
+
+NETWORK RESULTS
+    - avg timing = 0.0091 (sec)
+    - avg accuracy = 0.9518
