@@ -1,0 +1,1029 @@
+Mon Dec  4 15:35:18 2023       
++---------------------------------------------------------------------------------------+
+| NVIDIA-SMI 535.104.05             Driver Version: 535.104.05   CUDA Version: 12.2     |
+|-----------------------------------------+----------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |         Memory-Usage | GPU-Util  Compute M. |
+|                                         |                      |               MIG M. |
+|=========================================+======================+======================|
+|   0  NVIDIA GeForce RTX 2080 Ti     On  | 00000000:05:00.0 Off |                  N/A |
+| 27%   33C    P8              20W / 250W |      2MiB / 11264MiB |      0%      Default |
+|                                         |                      |                  N/A |
++-----------------------------------------+----------------------+----------------------+
+                                                                                         
++---------------------------------------------------------------------------------------+
+| Processes:                                                                            |
+|  GPU   GI   CI        PID   Type   Process name                            GPU Memory |
+|        ID   ID                                                             Usage      |
+|=======================================================================================|
+|  No running processes found                                                           |
++---------------------------------------------------------------------------------------+
+Dataset CityscapesDataset
+    Number of images: 2975
+    Split: train
+    Mode: gtFine
+    Augment: True
+    Root Location: ../datasets/cityscapes
+
+35
+creating unet model...
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+epoch = 0 | loss = 3.636052370071411
+epoch = 0 | loss = 2.1240923404693604
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+epoch = 1 | loss = 2.148993492126465
+epoch = 1 | loss = 2.0003857612609863
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+epoch = 2 | loss = 1.9322608709335327
+epoch = 2 | loss = 2.026984453201294
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+epoch = 3 | loss = 1.9215540885925293
+epoch = 3 | loss = 1.933140754699707
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+epoch = 4 | loss = 1.9430510997772217
+epoch = 4 | loss = 2.2529873847961426
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+epoch = 5 | loss = 1.8777248859405518
+epoch = 5 | loss = 2.0677144527435303
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+epoch = 6 | loss = 2.0043115615844727
+epoch = 6 | loss = 1.8832175731658936
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+epoch = 7 | loss = 1.965126395225525
+epoch = 7 | loss = 1.914189338684082
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+epoch = 8 | loss = 1.8713051080703735
+epoch = 8 | loss = 1.9176241159439087
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+epoch = 9 | loss = 1.9594686031341553
+epoch = 9 | loss = 1.9249064922332764
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+epoch = 10 | loss = 1.8799412250518799
+epoch = 10 | loss = 1.9480081796646118
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+epoch = 11 | loss = 1.985410451889038
+epoch = 11 | loss = 2.029426097869873
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+epoch = 12 | loss = 1.9038288593292236
+epoch = 12 | loss = 1.8591331243515015
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+epoch = 13 | loss = 1.8976104259490967
+epoch = 13 | loss = 1.944462776184082
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+epoch = 14 | loss = 1.88551664352417
+epoch = 14 | loss = 1.8797247409820557
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+epoch = 15 | loss = 1.8589894771575928
+epoch = 15 | loss = 1.9014837741851807
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+epoch = 16 | loss = 1.9309039115905762
+epoch = 16 | loss = 1.9512970447540283
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+epoch = 17 | loss = 1.878645420074463
+epoch = 17 | loss = 1.8330862522125244
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+epoch = 18 | loss = 1.9120434522628784
+epoch = 18 | loss = 1.898977518081665
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+epoch = 19 | loss = 1.83094322681427
+epoch = 19 | loss = 1.8687326908111572
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+epoch = 20 | loss = 1.8970613479614258
+epoch = 20 | loss = 1.884582281112671
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+epoch = 21 | loss = 1.8756650686264038
+epoch = 21 | loss = 1.933573603630066
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+epoch = 22 | loss = 1.8419573307037354
+epoch = 22 | loss = 1.873457670211792
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+epoch = 23 | loss = 1.92487370967865
+epoch = 23 | loss = 1.9320175647735596
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+epoch = 24 | loss = 1.8439888954162598
+epoch = 24 | loss = 1.8554587364196777
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+epoch = 25 | loss = 1.8492968082427979
+epoch = 25 | loss = 1.8821330070495605
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+epoch = 26 | loss = 1.8860788345336914
+epoch = 26 | loss = 1.8932572603225708
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+epoch = 27 | loss = 1.8928149938583374
+epoch = 27 | loss = 1.8847756385803223
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+epoch = 28 | loss = 1.8638191223144531
+epoch = 28 | loss = 1.8439792394638062
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+epoch = 29 | loss = 1.8361775875091553
+epoch = 29 | loss = 1.844092845916748
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+epoch = 30 | loss = 1.8823728561401367
+epoch = 30 | loss = 1.8516879081726074
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+epoch = 31 | loss = 1.87813138961792
+epoch = 31 | loss = 1.9258899688720703
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+epoch = 32 | loss = 1.9106152057647705
+epoch = 32 | loss = 1.8153347969055176
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+epoch = 33 | loss = 1.8368051052093506
+epoch = 33 | loss = 1.8942272663116455
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+epoch = 34 | loss = 1.8572378158569336
+epoch = 34 | loss = 1.8948982954025269
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+epoch = 35 | loss = 1.8755462169647217
+epoch = 35 | loss = 1.9552925825119019
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+epoch = 36 | loss = 1.8690540790557861
+epoch = 36 | loss = 1.8580455780029297
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+epoch = 37 | loss = 1.8261867761611938
+epoch = 37 | loss = 1.9155097007751465
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+epoch = 38 | loss = 1.8688647747039795
+epoch = 38 | loss = 1.835132360458374
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+epoch = 39 | loss = 1.8061699867248535
+epoch = 39 | loss = 1.9051722288131714
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+epoch = 40 | loss = 1.8571710586547852
+epoch = 40 | loss = 1.81807279586792
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+epoch = 41 | loss = 1.9230899810791016
+epoch = 41 | loss = 1.8947997093200684
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+epoch = 42 | loss = 1.9506776332855225
+epoch = 42 | loss = 1.8367186784744263
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+epoch = 43 | loss = 1.8500828742980957
+epoch = 43 | loss = 1.8763420581817627
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+epoch = 44 | loss = 1.796166181564331
+epoch = 44 | loss = 1.8726670742034912
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+epoch = 45 | loss = 1.8749524354934692
+epoch = 45 | loss = 1.900856852531433
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+epoch = 46 | loss = 1.815205693244934
+epoch = 46 | loss = 1.868290901184082
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+epoch = 47 | loss = 1.896991491317749
+epoch = 47 | loss = 1.8844541311264038
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+epoch = 48 | loss = 1.9443104267120361
+epoch = 48 | loss = 1.8619296550750732
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+epoch = 49 | loss = 1.8695722818374634
+epoch = 49 | loss = 1.865581750869751
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+epoch = 50 | loss = 1.946166753768921
+epoch = 50 | loss = 1.7981371879577637
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+epoch = 51 | loss = 1.901665210723877
+epoch = 51 | loss = 1.8854475021362305
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+epoch = 52 | loss = 1.8645488023757935
+epoch = 52 | loss = 1.8629597425460815
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+epoch = 53 | loss = 1.8519607782363892
+epoch = 53 | loss = 1.8024044036865234
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+epoch = 54 | loss = 1.8516706228256226
+epoch = 54 | loss = 1.8979398012161255
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+epoch = 55 | loss = 1.9063811302185059
+epoch = 55 | loss = 1.949739694595337
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+epoch = 56 | loss = 1.796467661857605
+epoch = 56 | loss = 1.8229432106018066
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+epoch = 57 | loss = 1.8316563367843628
+epoch = 57 | loss = 1.858258605003357
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+epoch = 58 | loss = 1.8298602104187012
+epoch = 58 | loss = 1.8005921840667725
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+epoch = 59 | loss = 1.834072232246399
+epoch = 59 | loss = 1.8616156578063965
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+epoch = 60 | loss = 1.845738410949707
+epoch = 60 | loss = 1.8786916732788086
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+epoch = 61 | loss = 1.8051888942718506
+epoch = 61 | loss = 1.9077180624008179
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+epoch = 62 | loss = 1.8127598762512207
+epoch = 62 | loss = 1.8192145824432373
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+epoch = 63 | loss = 1.8637081384658813
+epoch = 63 | loss = 1.8602595329284668
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+epoch = 64 | loss = 1.8303152322769165
+epoch = 64 | loss = 1.8070366382598877
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+epoch = 65 | loss = 1.8243956565856934
+epoch = 65 | loss = 1.8622384071350098
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+epoch = 66 | loss = 1.8130526542663574
+epoch = 66 | loss = 1.8724079132080078
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+epoch = 67 | loss = 1.8923282623291016
+epoch = 67 | loss = 1.8321107625961304
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+epoch = 68 | loss = 1.828559398651123
+epoch = 68 | loss = 1.8769183158874512
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+epoch = 69 | loss = 1.8175623416900635
+epoch = 69 | loss = 1.837462067604065
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+epoch = 70 | loss = 1.8394968509674072
+epoch = 70 | loss = 1.8489603996276855
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+epoch = 71 | loss = 1.8028589487075806
+epoch = 71 | loss = 1.8429985046386719
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+epoch = 72 | loss = 1.8401784896850586
+epoch = 72 | loss = 1.806812047958374
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+epoch = 73 | loss = 1.8637876510620117
+epoch = 73 | loss = 1.8780241012573242
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+epoch = 74 | loss = 1.7952543497085571
+epoch = 74 | loss = 1.8423314094543457
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+epoch = 75 | loss = 1.8650879859924316
+epoch = 75 | loss = 1.8310946226119995
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+epoch = 76 | loss = 1.827777624130249
+epoch = 76 | loss = 1.8043526411056519
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+epoch = 77 | loss = 1.8862168788909912
+epoch = 77 | loss = 1.8609015941619873
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+epoch = 78 | loss = 1.833815574645996
+epoch = 78 | loss = 1.864198088645935
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+epoch = 79 | loss = 1.9155941009521484
+epoch = 79 | loss = 1.8073711395263672
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+epoch = 80 | loss = 1.8203469514846802
+epoch = 80 | loss = 1.796072244644165
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+epoch = 81 | loss = 1.8090039491653442
+epoch = 81 | loss = 1.819580316543579
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+epoch = 82 | loss = 1.809446930885315
+epoch = 82 | loss = 1.8593003749847412
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+epoch = 83 | loss = 1.838742971420288
+epoch = 83 | loss = 1.8385682106018066
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+epoch = 84 | loss = 1.8289371728897095
+epoch = 84 | loss = 1.823767066001892
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+epoch = 85 | loss = 1.8094265460968018
+epoch = 85 | loss = 1.8517698049545288
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+epoch = 86 | loss = 1.8697606325149536
+epoch = 86 | loss = 1.8431806564331055
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+epoch = 87 | loss = 1.8217518329620361
+epoch = 87 | loss = 1.8108055591583252
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+epoch = 88 | loss = 1.8266589641571045
+epoch = 88 | loss = 1.9253673553466797
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+epoch = 89 | loss = 1.8074729442596436
+epoch = 89 | loss = 1.8898799419403076
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+epoch = 90 | loss = 1.8161972761154175
+epoch = 90 | loss = 1.8555353879928589
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+epoch = 91 | loss = 1.8038992881774902
+epoch = 91 | loss = 1.8000667095184326
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+epoch = 92 | loss = 1.8484991788864136
+epoch = 92 | loss = 1.8255045413970947
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+epoch = 93 | loss = 1.8066954612731934
+epoch = 93 | loss = 1.8344981670379639
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+epoch = 94 | loss = 1.907914400100708
+epoch = 94 | loss = 1.8409264087677002
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+epoch = 95 | loss = 1.8158082962036133
+epoch = 95 | loss = 1.8420400619506836
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+epoch = 96 | loss = 1.8156243562698364
+epoch = 96 | loss = 1.8357820510864258
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+epoch = 97 | loss = 1.890817642211914
+epoch = 97 | loss = 1.835658073425293
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+epoch = 98 | loss = 1.8268532752990723
+epoch = 98 | loss = 1.799068570137024
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+/home/wangdx_lab/cse12012524/.conda/envs/ml/lib/python3.7/site-packages/torchvision/transforms/functional.py:443: UserWarning: Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. Please use InterpolationMode enum.
+  "Argument 'interpolation' of type int is deprecated since 0.13 and will be removed in 0.15. "
+epoch = 99 | loss = 1.8325109481811523
+epoch = 99 | loss = 1.8063583374023438
